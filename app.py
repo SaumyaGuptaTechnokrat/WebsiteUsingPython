@@ -17,7 +17,7 @@ st.set_page_config(page_title="Cool Wesbite | Python",page_icon=":tada:",layout=
 def local_css(file_name):
     with open(file_name) as f:
         st.markdown(f"<style>{f.read()}</style>",unsafe_allow_html=True)
-local_css("Style/style.css")
+local_css("style/style.css")
 with st.container():
     st.subheader("hi,I am Saumya Gupta:wave:")
     st.title("A Freelancer|Developer|Student From Lucknow")
